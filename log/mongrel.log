@@ -1,0 +1,179 @@
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:155: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:174: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:191: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:212: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:229: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:238: warning: parenthesize argument(s) for future version
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:155: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:174: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:191: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:212: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:229: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:238: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:50: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:69: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:86: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:104: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:121: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:130: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:50: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:69: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:86: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:104: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:121: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:130: warning: parenthesize argument(s) for future version
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:50: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:69: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:86: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:104: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:121: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:130: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:50: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:69: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:86: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:104: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:121: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:130: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:155: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:174: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:191: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:212: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:229: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:238: warning: parenthesize argument(s) for future version
+** Starting Rails in environment production ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:155: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:174: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:191: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:212: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:229: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/administrators_controller.rb:238: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:50: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:69: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:86: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:104: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:121: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/transport_sessions_controller.rb:130: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:50: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:69: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:86: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:104: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:121: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/buses_controller.rb:130: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/settings_controller.rb:50: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/settings_controller.rb:69: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/settings_controller.rb:86: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/settings_controller.rb:130: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/settings_controller.rb:147: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/settings_controller.rb:156: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/routes_controller.rb:50: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/routes_controller.rb:69: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/routes_controller.rb:86: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/routes_controller.rb:104: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/routes_controller.rb:121: warning: parenthesize argument(s) for future version
+/opt/application/20061003_1/config/../app/controllers/routes_controller.rb:130: warning: parenthesize argument(s) for future version
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.

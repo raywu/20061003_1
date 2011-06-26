@@ -1,0 +1,15 @@
+wtown_boston:
+  id: 1
+  transport_session_id: 1
+  point_a: 'Williamstown'
+  point_b: 'Boston'
+  information: ''
+  price: '15.00'
+  
+wtown_nyp:
+  id: 2
+  transport_session_id: 1
+  point_a: 'Williamstown'
+  point_b: 'New York Penn Station'
+  information: ''
+  price: '15.00'

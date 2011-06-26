@@ -1,0 +1,8 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+admin:
+  id: 1
+  username: "admin"
+  salted_password: "a2d1a5d737fcc942011a44a4cfb58cae4af0a209"
+  salt: "2e09a2025be98db7fa8d735947a2290215550f4d"
+  superuser: 1
+  email: "joe@wtown.org"

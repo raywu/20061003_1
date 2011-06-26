@@ -1,0 +1,15 @@
+# users with id's 1-9 each have two reservations
+<% res_id = 1 %>
+<% for user_id in 1..9 %>
+user<%= user_id %>reservation1:
+  id: <%= res_id %>
+  user_id: <%= user_id %>
+
+<% res_id += 1 %>
+user<%= user_id %>reservation2:
+  id: <%= res_id %>
+  user_id: <%= user_id %>
+
+<% user_id += 1 %>
+<% res_id += 1 %>
+<% end %>

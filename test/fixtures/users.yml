@@ -1,0 +1,22 @@
+joe_user:
+  id: 1
+  login_id: 'joe@wtown.org'
+  reset_password_token: '5c2de36aab'
+  phone:
+  salted_password: '1d614deb9c'
+  salt: '2ed25e7624'
+  verified: 1
+
+<% cnt = 2 %>
+<% for i in 'a'..'z' %>
+<%= i+i+i %>:
+  id: <%= cnt %>
+  login_id: "07<%= i+i+i %>"
+  reset_password_token: '5c2de36aab'
+  phone:
+  salted_password: '1d614deb9c'
+  salt: '2ed25e7624'
+  verified: 1
+  
+<% cnt += 1%>
+<% end %>

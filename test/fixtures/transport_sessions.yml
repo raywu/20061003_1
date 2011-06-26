@@ -1,0 +1,7 @@
+fall_break:
+  id: 1
+  name: 'Fall Break 2006'
+  reservations_opening_date: "<%= Time.now.to_s(:db) %>"
+  session_closing_date: "<%= (Time.now + 7.days).to_s(:db) %>"
+  cash_reservations_closing_date: "<%= (Time.now + 6.days).to_s(:db) %>"
+  information: ''

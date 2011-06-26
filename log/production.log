@@ -1,0 +1,270 @@
+1,1,1,This transaction has been approved.,128687,P,1228457943,,,10.00,CC,void,,,,,,,,94301,,,,,,,,,,,,,,,,,,C38512F2E110D79C1D5E11D397A52129,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,2,27,The transaction resulted in an AVS mismatch. The address provided does not match billing address of cardholder.,003715,N,1230009335,,,10.00,CC,auth_capture,,Christopher Upjohn,W,,4602 Sunnyside Rd,Edina,MN,55424,,,,,,,,,,,,,,,,,,CD051BA647AA4E18F34BB854557F563A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,1,1,This transaction has been approved.,083915,Y,1230010247,,,10.00,CC,auth_capture,,Christopher Upjohn,W,,2705 Maplewood Circle East,Woodland,MN,55391,,,,,,,,,,,,,,,,,,454E47B32026CB9374262B109B8D24DC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,1,1,This transaction has been approved.,075515,Y,1230017709,,,20.00,CC,auth_capture,,Christopher Upjohn,W,,2705 Maplewood Circle East,Woodland,MN,55391,,,,,,,,,,,,,,,,,,254445F36B8B818240D7907E42A82B6A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,1,1,This transaction has been approved.,075515,P,1230017709,,,10.00,CC,void,,,,,,,,55391,,,,,,,,,,,,,,,,,,0C2652C40CFF50C950C8F7E6637A25BD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+ActiveRecord::RecordNotFound (Couldn't find Reservation with ID=29):
+    /vendor/rails/activerecord/lib/active_record/base.rb:955:in `find_one'
+    /vendor/rails/activerecord/lib/active_record/base.rb:941:in `find_from_ids'
+    /vendor/rails/activerecord/lib/active_record/base.rb:382:in `find'
+    /app/controllers/manager_controller.rb:97:in `edit_reservation'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:941:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:368:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:82:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:408:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:377:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:117:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:38:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:66:in `process'
+    /usr/lib/ruby/1.8/thread.rb:135:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:425:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:424:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:495:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:494:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:483:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:774:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:772:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:97:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/command.rb:163:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:194
+    /usr/bin/mongrel_rails:18
+
+
+
+
+ActiveRecord::RecordNotFound (Couldn't find Reservation with ID=29):
+    /vendor/rails/activerecord/lib/active_record/base.rb:955:in `find_one'
+    /vendor/rails/activerecord/lib/active_record/base.rb:941:in `find_from_ids'
+    /vendor/rails/activerecord/lib/active_record/base.rb:382:in `find'
+    /app/controllers/manager_controller.rb:97:in `edit_reservation'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:941:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:368:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:82:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:408:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:377:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:117:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:38:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:66:in `process'
+    /usr/lib/ruby/1.8/thread.rb:135:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:425:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:424:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:495:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:494:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:483:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:774:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:772:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:97:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/command.rb:163:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:194
+    /usr/bin/mongrel_rails:18
+
+
+
+
+ActiveRecord::RecordNotFound (Couldn't find Reservation with ID=34 AND (reservations.user_id = 10)):
+    /vendor/rails/activerecord/lib/active_record/base.rb:955:in `find_one'
+    /vendor/rails/activerecord/lib/active_record/base.rb:941:in `find_from_ids'
+    /vendor/rails/activerecord/lib/active_record/base.rb:382:in `find'
+    /vendor/rails/activerecord/lib/active_record/associations/has_many_association.rb:83:in `find'
+    /app/controllers/reservations_controller.rb:202:in `modify'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:941:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:368:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:82:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:408:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:377:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:117:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:38:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:66:in `process'
+    /usr/lib/ruby/1.8/thread.rb:135:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:425:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:424:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:495:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:494:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:483:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:774:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:772:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:97:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/command.rb:163:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:194
+    /usr/bin/mongrel_rails:18
+
+
+1,1,1,This transaction has been approved.,083915,P,1230010247,,,1.00,CC,void,,,,,,,,55391,,,,,,,,,,,,,,,,,,1AA27105A25546A616C13793C8D79A6B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+ActiveRecord::RecordNotFound (Couldn't find Reservation with ID=31):
+    /vendor/rails/activerecord/lib/active_record/base.rb:955:in `find_one'
+    /vendor/rails/activerecord/lib/active_record/base.rb:941:in `find_from_ids'
+    /vendor/rails/activerecord/lib/active_record/base.rb:382:in `find'
+    /app/controllers/manager_controller.rb:97:in `edit_reservation'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:941:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:368:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:82:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:408:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:377:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:117:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:38:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:66:in `process'
+    /usr/lib/ruby/1.8/thread.rb:135:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:425:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:424:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:495:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:494:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:483:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:774:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:772:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:97:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/command.rb:163:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:194
+    /usr/bin/mongrel_rails:18
+
+
+1,1,310,This transaction has already been voided.,,P,0,,,2.00,CC,void,,,,,,,,,,,,,,,,,,,,,,,,,,CC04EE4A097BD0A561FAC14108B7EC0F,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+ActiveRecord::RecordNotFound (Couldn't find Reservation with ID=33 AND (reservations.user_id = 9)):
+    /vendor/rails/activerecord/lib/active_record/base.rb:955:in `find_one'
+    /vendor/rails/activerecord/lib/active_record/base.rb:941:in `find_from_ids'
+    /vendor/rails/activerecord/lib/active_record/base.rb:382:in `find'
+    /vendor/rails/activerecord/lib/active_record/associations/has_many_association.rb:83:in `find'
+    /app/controllers/reservations_controller.rb:202:in `modify'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:941:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:368:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:82:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:408:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:377:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:117:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:38:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:66:in `process'
+    /usr/lib/ruby/1.8/thread.rb:135:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:425:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:424:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:495:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:494:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:483:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:774:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:772:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:97:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/command.rb:163:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:194
+    /usr/bin/mongrel_rails:18
+
+
+1,1,1,This transaction has been approved.,073783,Y,1230054832,,,2.00,CC,auth_capture,,K. Newman,Graydon,,1655 Bohns Point Road,Wayzata,MN,55391,,,,,,,,,,,,,,,,,,4AF8F2FFC5C2016A5B9D4875F08B8467,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+
+
+SyntaxError (/opt/application/current/config/../app/models/setting.rb:15: syntax error, unexpected $undefined, expecting kEND
+  validates_format_of :wait_list_opening_window, :with => /^/\d.\d?(\.5)?$/$/
+                                                              ^
+/opt/application/current/config/../app/models/setting.rb:15: no .<digit> floating literal anymore; put 0 before dot
+  validates_format_of :wait_list_opening_window, :with => /^/\d.\d?(\.5)?$/$/
+                                                                      ^):
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require__'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:147:in `require'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:65:in `require_or_load'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:30:in `depend_on'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:85:in `require_dependency'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:98:in `const_missing'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:131:in `const_missing'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:133:in `const_missing'
+    /app/controllers/settings_controller.rb:106:in `edit_settings'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:941:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:368:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:82:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:408:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:377:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:117:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:38:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:66:in `process'
+    /usr/lib/ruby/1.8/thread.rb:135:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:425:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:424:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:495:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:494:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:483:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:774:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:772:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:97:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/command.rb:163:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:194
+    /usr/bin/mongrel_rails:18
+
+
+
+
+SyntaxError (/opt/application/current/config/../app/models/setting.rb:15: syntax error, unexpected $undefined, expecting kEND
+  validates_format_of :wait_list_opening_window, :with => /^/\d.\d?(\.5)?$/$/
+                                                              ^
+/opt/application/current/config/../app/models/setting.rb:15: no .<digit> floating literal anymore; put 0 before dot
+  validates_format_of :wait_list_opening_window, :with => /^/\d.\d?(\.5)?$/$/
+                                                                      ^):
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require__'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:147:in `require'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:65:in `require_or_load'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:30:in `depend_on'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:85:in `require_dependency'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:98:in `const_missing'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:131:in `const_missing'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:133:in `const_missing'
+    /app/controllers/settings_controller.rb:106:in `edit_settings'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:941:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:368:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:82:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:408:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:377:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:117:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:38:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:66:in `process'
+    /usr/lib/ruby/1.8/thread.rb:135:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/rails.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:425:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:424:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:495:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:494:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:483:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:774:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel.rb:772:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:97:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/command.rb:163:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:194
+    /usr/bin/mongrel_rails:18
+
+
+58
+59
+60
+61
+62

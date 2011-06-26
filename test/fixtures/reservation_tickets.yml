@@ -1,0 +1,36 @@
+# users with id's 1-9 are on buses 1 and 2 (with 1 and 2 tickets for each, respectively)
+<% res_ticket_id = 1 %>
+<% res_id = 1 %>
+<% for user_id in 1..9 %>
+user<%= user_id %>bus1:
+  id: <%= res_ticket_id %>
+  reservation_id: <%= res_id %>
+  bus_id: 1
+  quantity: 1
+  conductor_wish: <%= user_id%2 == 0 ? 1 : 0 %>
+
+<% res_ticket_id += 1 %>
+user<%= user_id %>bus2:
+  id: <%= res_ticket_id %>
+  reservation_id: <%= res_id %>
+  bus_id: 2
+  quantity: 2
+  conductor_wish: <%= user_id%2 == 0 ? 1 : 0 %>
+  
+<% res_id += 2 %>
+<% res_ticket_id += 1 %>
+<% end %>
+
+# users with id's 1-9 are on bus 3 (with 1 ticket for it)
+<% res_id = 2 %>
+<% for user_id in 1..9 %>
+user<%= user_id %>bus3:
+  id: <%= res_ticket_id %>
+  reservation_id: <%= res_id %>
+  bus_id: 3
+  quantity: 1
+  conductor_wish: <%= user_id%2 == 0 ? 0 : 1 %>
+  
+<% res_id += 2 %>
+<% res_ticket_id += 1 %>
+<% end %>

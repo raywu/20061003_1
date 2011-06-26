@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+first:
+  id: 1
+  route_id: 1
+  going_away: 1
+  departure: "<%= (Time.now + 8.days).to_s(:db) %>"
+  seats: 80
+  occupied_seats: 9
+  reservations_closing_date: "<%= (Time.now + 7.days).to_s(:db) %>"
+
+second:
+  id: 2
+  route_id: 1
+  going_away: 0
+  departure: "<%= (Time.now + 7.days).to_s(:db) %>"
+  seats: 80
+  occupied_seats: 18
+  reservations_closing_date: "<%= (Time.now + 6.days).to_s(:db) %>"
+
+third:
+  id: 3
+  route_id: 2
+  going_away: 1
+  departure: "<%= (Time.now + 8.days).to_s(:db) %>"
+  seats: 50
+  occupied_seats: 9
+  reservations_closing_date: "<%= (Time.now + 7.days).to_s(:db) %>"
